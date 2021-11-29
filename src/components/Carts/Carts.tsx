@@ -36,7 +36,6 @@ const Carts: React.FC<Props> = ({ cartItems, addToCart, removeFormCart }) => {
 export default Carts;
 
 const Wrapper = styled.aside`
-  font-family: Arial, Helvetica, sans-serif;
   width: 500px;
   padding: 20px;
 `;

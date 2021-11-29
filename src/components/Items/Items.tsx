@@ -14,7 +14,7 @@ const Items: React.FC<Props> = ({ item, handleAddToCart }) => (
   <Wrapper>
     <img src={item.image} alt={item.title} />
     <div>
-      <h3>{item.title}</h3>
+      <h2>{item.title}</h2>
       <p>{item.description}</p>
       <h3>${item.price}</h3>
     </div>
@@ -44,8 +44,11 @@ const Wrapper = styled.div`
   }
 
   div {
-    font-family: Arial, Helvetica, sans-serif;
     padding: 1rem;
     height: 100%;
+  }
+
+  h3 {
+    font-style: bold;
   }
 `;
